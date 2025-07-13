@@ -15,8 +15,8 @@ This is a FastAPI-based microservice that allows passengers to register, update,
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/railsathi-service.git
-cd railsathi-service
+git clone https://github.com/s2pl/RailSathiBE.git
+cd RailSathiBE
 ```
 
 2. **Create a .env file**
