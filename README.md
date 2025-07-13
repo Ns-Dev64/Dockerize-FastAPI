@@ -67,5 +67,5 @@ All endpoints are available under the `/rs_microservice` path.
 ## Limitations
 - `Any user with the API URL can create, update, or delete complaints. Role-based access control is not yet implemented.`
 - `Media uploads are handled in separate threads to avoid blocking, but this can be improved with async-compatible file handling for better scalability.`
-- `No rate limiting or abuse protection: There are no restrictions on how frequently users can submit complaints or upload files.`
-- `Error handling is basic: While errors are logged and HTTP exceptions are raised, there is no structured error response format or centralized exception handler.`
+- `There are no restrictions on how frequently users can submit complaints or upload files.`
+- `While errors are logged and HTTP exceptions are raised, there is no structured error response format or centralized exception handler.`
